@@ -141,8 +141,6 @@ p2 {
 }
 
 .post1 img {
-
-  position: relative;
   display: block;
   width: 680px;
   height: 480px
@@ -150,9 +148,6 @@ p2 {
 
 .post1 {
 cursor: pointer;
-position: relative;
-top: 20px;
-right: 127px;
 width: 680px;
 height: 480px;
 }
