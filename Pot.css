@@ -129,21 +129,8 @@ height: 480px;
   padding: 10px 30px;
 }
 
-p {
-  padding-top: 20px;
-  text-decoration: underline;
-}
-
-p2 {
-  padding-top: 20px;
-  text-decoration: underline;
-  z-index: 1;
-}
 
 .post1 img {
-
-  position: relative;
-  display: block;
   width: 680px;
   height: 480px
 }
