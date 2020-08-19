@@ -44,21 +44,23 @@ h2 {
 }
 
 .post img {
-  width: 550px;
-  height: 400px
+  width: 950px;
+  height: 410px
 }
 
 .post1 img {
-  width: 550px;
-  height: 400px
+  width: 950px;
+  height: 410px
 }
 
 .post {
 cursor: pointer;
+padding: 10px;
 }
 
 .post1 {
 cursor: pointer;
+padding: 10px;
 }
 
 .post:hover .post-s  {
