@@ -77,3 +77,104 @@ h2 {
   padding: 20px 40px;
   text-align: center;
 }
+
+.post img {
+
+  position: relative;
+
+  display: block;
+  width: 680px;
+  height: 480px
+}
+
+.post {
+cursor: pointer;
+position: relative;
+right: 127px;
+width: 680px;
+height: 480px;
+}
+
+.post:hover .post-s  {
+  width: 680px;
+  opacity: 80%;
+}
+
+.post-s {
+  width: 680px;
+  height: 480px;
+  background: rgba(120, 225, 221, 0.71);
+  opacity: 0%;
+  position: relative;
+  bottom: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.7s ease;
+}
+
+.post-s h5 {
+    font-family: "open sans";
+  color: white;
+  font-size: 30px;
+  border: 4px solid white;
+  padding: 10px 30px;
+
+}
+
+p {
+  padding-top: 20px;
+  text-decoration: underline;
+}
+
+p2 {
+  padding-top: 20px;
+  text-decoration: underline;
+  z-index: 1;
+}
+
+.post1 img {
+
+  position: relative;
+  display: block;
+  width: 680px;
+  height: 480px
+}
+
+.post1 {
+cursor: pointer;
+position: relative;
+top: 20px;
+right: 127px;
+width: 680px;
+height: 480px;
+}
+
+.post1:hover .post-s1  {
+  width: 680px;
+  opacity: 80%;
+}
+
+.post-s1 {
+  width: 680px;
+  height: 480px;
+  background: rgba(120, 225, 221, 0.71);
+  opacity: 0%;
+  position: relative;
+  bottom: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.7s ease;
+}
+
+.post-s1 h5 {
+    font-family: "open sans";
+  color: white;
+  font-size: 30px;
+  border: 4px solid white;
+  padding: 10px 30px;
+
+}
