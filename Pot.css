@@ -1,6 +1,4 @@
-html {
-   overflow-x: hidden;
-}
+
 
 #menu {
   margin: 0;
@@ -95,8 +93,6 @@ h2 {
 cursor: pointer;
 position: relative;
 right: 127px;
-width: 680px;
-height: 480px;
 }
 
 .post:hover .post-s  {
@@ -170,9 +166,6 @@ height: 480px;
 }
 
 .post2 img {
-
-  position: relative;
-
   display: block;
   width: 680px;
   height: 480px
@@ -226,21 +219,24 @@ height: 480px;
 }
 
 .post3 {
+  padding-top: 20px;
 cursor: pointer;
 width: 680px;
 height: 480px;
 }
 
 .post3:hover .post-s3  {
+  padding-top: 20px;
   width: 680px;
   opacity: 80%;
 }
 
 .post-s3 {
+  padding-top: 20px;
   position: absolute;
    top: 0;
    bottom: 0;
-   left: 30;
+   left: 15;
    right: 0;
   width: 680px;
   height: 480px;
