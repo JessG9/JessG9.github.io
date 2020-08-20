@@ -1,23 +1,8 @@
-<html>
-html {
-overflow-x: hidden;
-}
-
-.jumbotron {
-  background-image: url("imgs/Park4.jpg");
-  background-size: cover;
-  height: 630px;
-  z-index: 1;
-}
-
 h1 {
-  position: relative;
-  top: 190px;
   color: #313131;
   font-size: 20px;
   font-weight: 700;
   font-family: sans-serif;
-  padding: 20px 40px;
   text-align: center;
 }
 
@@ -27,80 +12,61 @@ hr {
 border-color: #313131;
 position: relative;
 right: 100px;
-bottom: 50px;
+bottom: 105px;
 }
 
-.container img {
-  width: 650px;
-  height: 600px;
-  position: relative;
-  top: 50px;
-  right: 100px;
-
-}
 
 h2 {
-  position: relative;
-  left: 960px;
-  bottom: 500px;
-  width: 300px;
   font-size: 30px;
-  text-align: justify;
+  text-align: center;
+  padding-right: 50px;
+  padding-top: 70px;
 }
 
 p2 {
-    width: 400px;
-    position: relative;
-    left: 910px;
-    bottom: 550px;
     text-align: justify;
 }
 
 p {
-  width: 400px;
-  position: relative;
-  left: 890px;
-  bottom: 450px;
   text-align: justify;
+  padding-right: 50px;
+    padding-top: 40px;
 }
 
 p1 {
-  width: 400px;
-  position: relative;
-  left: 890px;
-  bottom: 1250px;
   text-align: justify;
   font-style: italic;
   font-weight: bold;
+  padding-right: 50px;
+    padding-top: 50px;
 }
 
-iframe {
-  position: relative;
-  bottom: 70px;
-right: 150px;
-}
 
 a {
   font-size: 20px;
   color: #78e1dd;
+    text-decoration: none;
 }
 
 #menu {
-  margin: 0;
+  margin: 20px;
   padding: 0;
-  margin-top: 100px;
-  position: relative;
-  left: 280px;
-  bottom: 50px;
+  margin-top: 80px;
+  padding-left: 50px;
 }
 
-#menu li {
+#menu div li {
   list-style-type: none;
   display: inline-block;
   color: black;
 }
 
-#menu li a {
+li a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+#menu div li a {
   text-decoration: none;
   position: relative;
   color: #313131;
@@ -110,11 +76,11 @@ a {
   display: block;
   overflow: hidden;
   transition: 0.7s all;
-  padding: 20px 40px;
+  padding: 20px 70px;
   text-transform: uppercase;;
 }
 
-#menu li a:before {
+#menu div li a:before {
   content: "";
   width: 30px;
   position: absolute;
@@ -126,70 +92,105 @@ color: #78e1dd;
 background-color: pink;
 }
 
-#menu li a:hover:before {
+#menu div li a:hover:before {
   right: 0;
 color: #ff7675;
 }
 
-#menu li a:hover {
-  color: ##78e1dd;
-}
-
-iframe {
-  position: relative;
-  right: 230px;
-  bottom: 150px;
-}
-
-.box img {
-  position: absolute;
-  left: 800px;
-  top: 1535px;
-  margin-bottom: 0;
-  border: 5px solid #555
-}
-
-.box1 img {
-  position: absolute;
-  left: 800px;
-  top: 1960px;
-  margin-bottom: 0;
-  border: 5px solid #555
+#menu div li a:hover {
+  color: #78e1dd;
 }
 
 .unnamed img {
-position: relative;
-left: 1330px;
-bottom: 40px;
-width: 2%;
-height: 5%;
+  width: 50%;
+  height: 5%;
+  padding-top: 50px:
 }
 
-.unnameds img {
-position: relative;
-left: 110px;
-bottom: 130px;
-width: 2%;
-height: 5%;
-transform: scaleX(-1);
+.unnamed {
+    padding-top: 50px:
 }
 
+#Tacok {
+  padding-top: 70px;
+}
 
-h3 a {
-  position: relative;
-  left: 1060px;
-  top: 3px;
+#Tacoks {
+  padding-top: 70px;
+  transform: scaleX(-1);
+}
+
+.container h3 {
   font-size: 30px;
   color: black;
   text-decoration: none;
+  padding-left: 100px;
+    text-decoration: none;
+}
+
+h3 a {
+  font-size: 30px;
+    color: black;
+    float: right;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 20%;
+    text-decoration: none;
+}
+
+h3 {
+    text-decoration: none;
+}
+
+h4 {
+    text-decoration: none;
 }
 
 
 h4 a {
-  position: relative;
-  left: 160px;
-  bottom: 85px;
+  font-size: 30px;
+    color: black;
+    float: left;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    text-decoration: none;
+}
+
+.container h4 {
   font-size: 30px;
   color: black;
   text-decoration: none;
+    text-decoration: none;
 }
+
+  .jumbotron {
+    background-image: url("imgs/Park4.jpg");
+    background-size: cover;
+    height: 630px;
+    z-index: 1;
+    padding-top: 10px;
+  }
+
+
+  .post {
+  }
+
+  .container .post img {
+    width: 750px;
+    height: 650px;
+    padding-bottom: 20px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+
+
+  iframe {
+
+    width: 80%;
+    height: 120%;
+
+  }

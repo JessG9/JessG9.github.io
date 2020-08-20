@@ -155,6 +155,7 @@ h3 {
   .container .post img {
     width: 800px;
     height: 600px;
+        padding-bottom: 20px;
   }
 
   .container {
