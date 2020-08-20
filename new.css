@@ -1,26 +1,48 @@
-#menu li {
+#menu {
+  margin: 0;
+  padding: 0;
+  margin-top: 100px;
+}
+
+#menu div li {
   list-style-type: none;
   display: inline-block;
   color: black;
 }
 
-#menu li a {
+#menu div li a {
   text-decoration: none;
+  position: relative;
   color: #313131;
   font-size: 20px;
   font-weight: 700;
   font-family: sans-serif;
+  display: block;
   overflow: hidden;
   transition: 0.7s all;
   padding: 20px 40px;
   text-transform: uppercase;;
 }
 
+#menu div li a:before {
+  content: "";
+  width: 30px;
+  position: absolute;
+  border-bottom: 5px solid #78e1dd;
+  bottom: 0px;
+  right: 300px;
+  transition: 0.7s all;
+color: #78e1dd;
+background-color: pink;
+}
 
-#menu {
-  margin: 0;
-  padding: 0;
-  margin-top: 100px;
+#menu div li a:hover:before {
+  right: 0;
+color: #ff7675;
+}
+
+#menu div li a:hover {
+  color: ##78e1dd;
 }
 
 h1 {
@@ -55,12 +77,12 @@ h2 {
 
 .post {
 cursor: pointer;
-padding: 10px;
+padding: 15px;
 }
 
 .post1 {
 cursor: pointer;
-padding: 10px;
+padding: 15px;
 }
 
 .post:hover .post-s  {
