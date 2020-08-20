@@ -2,21 +2,11 @@ html {
   overflow-x: hidden;
 }
 
-.jumbotron {
-  background-image: url("imgs/logocopy.jpg");
-  background-size: cover;
-  height: 630px;
-  z-index: 1;
-}
-
 h1 {
-  position: relative;
-  top: 190px;
   color: #313131;
   font-size: 20px;
   font-weight: 700;
   font-family: sans-serif;
-  padding: 20px 40px;
   text-align: center;
 }
 
@@ -29,14 +19,6 @@ right: 100px;
 bottom: 105px;
 }
 
-.container img {
-  width: 1800px;
-  height: 700px;
-  position: relative;
-  top: 50px;
-  right: 300px;
-
-}
 
 h2 {
   position: relative;
@@ -88,18 +70,15 @@ a {
   margin: 0;
   padding: 0;
   margin-top: 100px;
-  position: relative;
-  left: 280px;
-  bottom: 50px;
 }
 
-#menu li {
+#menu div li {
   list-style-type: none;
   display: inline-block;
   color: black;
 }
 
-#menu li a {
+#menu div li a {
   text-decoration: none;
   position: relative;
   color: #313131;
@@ -113,7 +92,7 @@ a {
   text-transform: uppercase;;
 }
 
-#menu li a:before {
+#menu div li a:before {
   content: "";
   width: 30px;
   position: absolute;
@@ -125,12 +104,12 @@ color: #78e1dd;
 background-color: pink;
 }
 
-#menu li a:hover:before {
+#menu div li a:hover:before {
   right: 0;
 color: #ff7675;
 }
 
-#menu li a:hover {
+#menu div li a:hover {
   color: ##78e1dd;
 }
 
@@ -150,3 +129,15 @@ h3 a {
   color: black;
   text-decoration: none;
 }
+
+  .jumbotron {
+    background-image: url("imgs/logocopy.jpg");
+    background-size: cover;
+    height: 630px;
+    z-index: 1;
+  }
+
+  .container img {
+    width: 1000px;
+    height: 600px;
+  }
