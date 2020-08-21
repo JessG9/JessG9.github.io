@@ -42,7 +42,7 @@ color: #ff7675;
 }
 
 #menu div li a:hover {
-  color: ##78e1dd;
+  color: #78e1dd;
 }
 
 h1 {
@@ -121,7 +121,7 @@ padding: 15px;
 }
 
 .post:hover .overlay {
-  opacity: 70%;
+  opacity: 100%;
 }
 
 .text {
@@ -150,7 +150,7 @@ padding: 15px;
 }
 
 .post1:hover .lay {
-  opacity: 70%;
+  opacity: 100%;
 }
 
 .text {
