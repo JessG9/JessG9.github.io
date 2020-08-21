@@ -188,9 +188,8 @@ h4 a {
 
 
 
-  iframe {
 
-    width: 80%;
-    height: 120%;
-
-  }
+    iframe  {
+          margin-left: 130px;
+          margin-right: auto;
+    }
