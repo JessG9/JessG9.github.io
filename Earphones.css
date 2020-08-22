@@ -200,19 +200,18 @@ iframe, object, embed {
 
 body{
   margin: 0;
-  padding-bottom: 800px;
+  padding-top: 100px;
 }
 .slidershow{
   width: 900px;
   height: 600px;
   overflow: hidden;
 }
-
 .middle{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%);
+  transform: translate(-15%,0%);
 }
 
 .navigation{
@@ -222,17 +221,16 @@ body{
   transform: translateX(-50%);
   display: flex;
 }
-
 .bar{
   width: 50px;
   height: 10px;
-  border: 2px solid #000000;
+  border: 2px solid #fff;
   margin: 6px;
   cursor: pointer;
   transition: 0.4s;
 }
 .bar:hover{
-  background:#808080;
+  background: #fff;
 }
 
 input[name="r"]{
