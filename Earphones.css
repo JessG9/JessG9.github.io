@@ -253,3 +253,15 @@ input[name="r"]{
 #padding2 {
   padding-top: 400px;
 }
+
+h5 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h6 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+  padding-top: 50px;
+}
