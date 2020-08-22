@@ -133,7 +133,7 @@ h3 a {
     color: black;
     float: right;
     padding-left: 50px;
-    padding-top: 50px;
+    padding-top: 250px;
     padding-bottom: 50px;
     margin-left: 20%;
     text-decoration: none;
@@ -203,8 +203,8 @@ body{
   padding-bottom: 800px;
 }
 .slidershow{
-  width: 700px;
-  height: 400px;
+  width: 900px;
+  height: 600px;
   overflow: hidden;
 }
 
@@ -214,6 +214,7 @@ body{
   left: 50%;
   transform: translate(-50%);
 }
+
 .navigation{
   position: absolute;
   bottom: 20px;
