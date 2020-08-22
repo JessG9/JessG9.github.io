@@ -187,7 +187,7 @@ h4 a {
 
   iframe src {
     text-align: center;
-    width: 80%;
+    width: 100%;
     vertical-align: middle;
     height: 100%;
     display: table-cell;
@@ -198,7 +198,7 @@ h4 a {
 
   iframe {
     text-align: center;
-    width: 80%;
+    width: 100%;
     vertical-align: middle;
     height: 100%;
     display: table-cell;
