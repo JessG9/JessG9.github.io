@@ -124,23 +124,21 @@ color: #ff7675;
   font-size: 30px;
   color: black;
   text-decoration: none;
-  padding-left: 100px;
+  padding-top: 600px;
+  padding-left: 800px;
     text-decoration: none;
 }
 
 h3 a {
+
   font-size: 30px;
     color: black;
-    float: right;
-    padding-right: 50px;
-    padding-top: 630px;
-    padding-bottom: 50px;
-    margin-left: 20%;
     text-decoration: none;
 }
 
 h3 {
     text-decoration: none;
+    padding-left: 300px;
 }
 
 h4 {
@@ -200,15 +198,15 @@ iframe, object, embed {
 
 
 .slidershow{
-  width: 700px;
-  height: 400px;
+  width: 1000px;
+  height: 700px;
   overflow: hidden;
 }
 .middle{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(0%,250%);
+  transform: translate(-50%,10%);
 }
 
 .navigation{
