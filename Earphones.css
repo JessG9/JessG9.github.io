@@ -104,19 +104,19 @@ color: #ff7675;
 .unnamed img {
   width: 50%;
   height: 5%;
-  padding-top: 50px:
+  padding-top: 350px:
 }
 
 .unnamed {
-    padding-top: 50px:
+    padding-top: 350px:
 }
 
 #Tacok {
-  padding-top: 70px;
+  padding-top: 640px;
 }
 
 #Tacoks {
-  padding-top: 70px;
+  padding-top: 650px;
   transform: scaleX(-1);
 }
 
@@ -132,8 +132,8 @@ h3 a {
   font-size: 30px;
     color: black;
     float: right;
-    padding-left: 50px;
-    padding-top: 250px;
+    padding-right: 50px;
+    padding-top: 630px;
     padding-bottom: 50px;
     margin-left: 20%;
     text-decoration: none;
@@ -198,20 +198,17 @@ iframe, object, embed {
     max-width: 100%;
 }
 
-body{
-  margin: 0;
-  padding-top: 100px;
-}
+
 .slidershow{
-  width: 900px;
-  height: 600px;
+  width: 700px;
+  height: 400px;
   overflow: hidden;
 }
 .middle{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-15%,0%);
+  transform: translate(0%,250%);
 }
 
 .navigation{
@@ -224,13 +221,18 @@ body{
 .bar{
   width: 50px;
   height: 10px;
-  border: 2px solid #fff;
+  border: 2px solid #000000;
   margin: 6px;
   cursor: pointer;
   transition: 0.4s;
 }
 .bar:hover{
-  background: #fff;
+  background: #78e1dd;
+}
+
+.slidingdoor {
+  position:absolute;
+  top: 20px;
 }
 
 input[name="r"]{
@@ -267,4 +269,8 @@ input[name="r"]{
 }
 #r5:checked ~ .s1{
   margin-left: -80%;
+}
+
+#padding2 {
+  padding-top: 400px;
 }
