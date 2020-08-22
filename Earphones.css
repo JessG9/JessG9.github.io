@@ -265,3 +265,13 @@ h6 {
   font-size: 30px;
   padding-top: 50px;
 }
+
+h7 {
+  z-index: 1;
+  text-align: center;
+    display: flex;
+       justify-content: center;
+       padding-top: 270px;
+       font-size: 50px;
+         font-family: sans-serif;
+}
