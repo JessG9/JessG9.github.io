@@ -1,8 +1,10 @@
 .fa {
   padding: 20px;
+padding-top: 20px;
   font-size: 30px;
   width: 70px;
   text-align: center;
+  float: right;
   text-decoration: none;
   border-radius: 40%;
 }
@@ -87,8 +89,4 @@ h1 {
 .jumbotron {
   height: 100px;
   color: white;
-}
-
-#cont {
-
 }
