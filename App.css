@@ -30,7 +30,7 @@ p2 {
 p {
   text-align: justify;
   padding-right: 50px;
-    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 p1 {
@@ -38,7 +38,7 @@ p1 {
   font-style: italic;
   font-weight: bold;
   padding-right: 50px;
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 
@@ -185,18 +185,27 @@ h4 a {
     width: 100%;
   }
 
-  iframe  {
-        margin-left: 130px;
-        margin-right: auto;
+  iframe src {
+    text-align: center;
+    width: 90%;
+    vertical-align: middle;
+    height: 80%;
+    display: table-cell;
+    display: flex;
+   align-items: center;
+   justify-content: center;
   }
 
-  .embed-pdf-viewer {
-    width:100%!important;
-}
-
-iframe, object, embed {
-    max-width: 100%;
-}
+  iframe {
+    text-align: center;
+    width: 90%;
+    vertical-align: middle;
+    height: 80%;
+    display: table-cell;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+  }
 
 
 .slidershow{
@@ -274,4 +283,8 @@ h7 {
        padding-top: 270px;
        font-size: 50px;
          font-family: sans-serif;
+}
+
+p3 {
+  font-size: 20px;
 }
