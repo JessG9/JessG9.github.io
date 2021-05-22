@@ -165,7 +165,7 @@ h4 a {
 }
 
   .jumbotron {
-    background-image: url("imgs/Cyber.jpg");
+    background-image: url("imgs/Greece.jpg");
     background-size: cover;
     height: 630px;
     z-index: 1;
@@ -178,7 +178,7 @@ h4 a {
 
   .container .post img {
     width: 850px;
-    height: 600px;
+    height: 1100px;
   }
 
   .container {
