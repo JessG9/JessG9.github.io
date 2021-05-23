@@ -165,7 +165,7 @@ h4 a {
 }
 
   .jumbotron {
-    background-image: url("imgs/cliffo.jpg");
+    background-image: url("imgs/Pic-01.jpg");
     background-size: cover;
     height: 630px;
     z-index: 1;
@@ -236,4 +236,15 @@ h4 a {
              padding-top: 270px;
              font-size: 50px;
                font-family: sans-serif;
+      }
+
+      iframe {
+        text-align: center;
+        width: 70%;
+        vertical-align: middle;
+        height: 80%;
+        display: table-cell;
+        display: flex;
+       align-items: center;
+       justify-content: center;
       }
